@@ -1,0 +1,55 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  padding: 40px;
+  text-align: center;
+}
+
+/* HEADER */
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* CARD */
+.card {
+  background: white;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4b8cff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e6dff;
+}
